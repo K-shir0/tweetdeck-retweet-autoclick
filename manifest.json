@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Retweet Button Clicker",
+  "name": "Tweetdeck Retweet Clicker",
   "version": "1.0",
   "description": "Clicks the retweet button automatically when retweet icon is clicked.",
   "permissions": [
