@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Retweet Button Clicker",
+  "version": "1.0",
+  "description": "Clicks the retweet button automatically when retweet icon is clicked.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "js": ["clicker.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Retweet Clicker"
+  }
+}
