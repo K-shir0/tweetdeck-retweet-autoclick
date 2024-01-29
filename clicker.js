@@ -7,5 +7,5 @@ document.addEventListener('click', function (e) {
                 }
             }
         }
-        , 500);
+        , 50);
 });
